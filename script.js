@@ -4,7 +4,7 @@ var element = document.getElementById("Starter");
 
 function updater() {
     if (stat == 0) {
-        element.innerHTML = "PRESS START"
+        element.innerHTML = "<b>PRESS START</b>"
     }
     else if (stat == 1) {
         element.innerHTML = "You're a very sad hamus... </br>You think about commiting a suicide.. </br><b>What should you do?<b></br>" + '<input class ="btn" type="submit" value="Suicide" onclick="stat = 2;" /><input class ="btn" type="submit" value="S T O P" onclick="stat = 3;" />';
