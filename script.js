@@ -1,4 +1,7 @@
-var stat = 0;
-// while (stat = 1) {
-    
-// }
+var text = "Hello"
+
+var element = document.getElementById("Starter");
+
+function changeStat() {
+    element.innerHTML = text;
+ }
