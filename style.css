@@ -7,3 +7,7 @@ body {
     background-color: royalblue;
     border-style: dotted;
 }
+
+.watermark {
+    margin-top: 20%;
+}
