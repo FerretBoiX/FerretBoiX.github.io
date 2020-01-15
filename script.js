@@ -17,4 +17,4 @@ function updater() {
     }
 }
 
-// setInterval(updater, 1000);
+setInterval(updater, 2500);
