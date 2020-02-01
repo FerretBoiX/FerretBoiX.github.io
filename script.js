@@ -18,7 +18,7 @@ function updater() {
         element.innerHTML = "You're going to sleep.</br>You woke up.</br>What should you do?</br>" +
         '<input class ="btn" type="submit" value="Get ready for school" onclick="stat = 5;" /><input class ="btn" type="submit" value="Waste all of your time watching memes" onclick="stat = 6;" />';
     } else if (stat == 5) {
-        element.innerHTML = "You got ready for school.</br>You still think about suiciding..</br>What should you do?" +
+        element.innerHTML = "You got ready for school.</br>You still think about suiciding..</br>What should you do?</br>" +
         '<input class ="btn" type="submit" value="Just do it already" onclick="stat = 2;" /><input class ="btn" type="submit" value="Stop it. Go to school. Be a normal person." onclick="stat = 6;" />';
     }
 }
