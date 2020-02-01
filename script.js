@@ -16,7 +16,7 @@ function updater() {
          '<input class ="btn" type="submit" value="Break up with her" onclick="stat = 3.1;" /><input class ="btn" type="submit" value="Ignore the fact and pretend it didn\'t happen" onclick="stat = 3.2;" /><input class ="btn" type="submit" value="Murder her" onclick="stat = 3.3;" />';
     } else if (stat == 4) {
         element.innerHTML = "You told your family you are gay.</br>They want to kick you out of the family</br><b>What should you do?<b></br>" +
-         '<input class ="btn" type="submit" value="Be sad about it" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="F*ck her. I don\'t need a family" onclick="stat = 4.2;" />';
+         '<input class ="btn" type="submit" value="Be sad about it" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="F*ck them. I don\'t need a family" onclick="stat = 4.2;" />';
     } 
 }
 
