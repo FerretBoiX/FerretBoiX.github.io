@@ -25,6 +25,15 @@ function updater2() {
     } else if (stat == 4.2) {
         element.innerHTML = "You don\'t need them.</br>If they can\'t understand you somebody else can.</br>Maybe one day you'll find a boyfriend..";
         stat = 5;
+    } else if (stat == 5.1) {
+        element.innerHTML = "Your friend was beaten hard..</br>He never wants to talk to you again.";
+        stat = 1;
+    } else if (stat == 5.2) {
+        element.innerHTML = "You tell them to f*ck off.</br>They punch your face and break your nose.";
+        stat = 1;
+    }  else if (stat == 5.3) {
+        element.innerHTML = "You call a teacher.</br>They stop the bullies and you get +5 points in the next test.";
+        stat = 6;
     }
 }
 
