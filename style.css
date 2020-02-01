@@ -1,5 +1,6 @@
 html {
     text-shadow: 0 3px dimgray;
+    scrollbar-width: 0;
 }
 
 body {
@@ -30,6 +31,7 @@ p {
 }
 
 .watermark {
-    margin-top: 20%;
+    position: fixed;
+    bottom: 0;
     color: black;
 }
