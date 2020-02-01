@@ -1,2 +1,2 @@
-# Danielthemouse.github.io
-Test Website.
+# Hamus Arcade Game™
+Source code for the Hamus Arcade Game™
