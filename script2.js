@@ -19,6 +19,12 @@ function updater2() {
     }  else if (stat == 3.3) {
         element.innerHTML = "You murdered her.</br>Police found you were the one who killed her.</br>What were you expecting would happen?!.";
         stat = 1;
+    } else if (stat == 4.1) {
+        element.innerHTML = "You get depressed.</br>Nothing matters to you anymore.</br>You go living in the streets and die because of hunger.";
+        stat = 1;
+    } else if (stat == 4.2) {
+        element.innerHTML = "You don\'t need them.</br>If they can\'t understand you somebody else can.</br>Maybe one day you'll find a boyfriend..";
+        stat = 5;
     }
 }
 
