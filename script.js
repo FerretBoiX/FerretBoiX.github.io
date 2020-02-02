@@ -28,4 +28,4 @@ function updater() {
     } 
 }
 
-setInterval(updater, 2000);
+setInterval(updater, 2500);

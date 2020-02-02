@@ -9,7 +9,12 @@ body {
 }
 
 p {
-    text-shadow: 0 3px dimgray;
+    transition: all 0.25s;
+    text-shadow: -2px 2px dimgray;
+}
+
+p:hover {
+    transform: translateX(5px);
 }
 
 .btn {
