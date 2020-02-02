@@ -1,2 +1,2 @@
-# Hamus Arcade Game™
-Source code for the Hamus Arcade Game™
+# Realife decisions simulator
+[u]Source code for Realife decisions simulator
