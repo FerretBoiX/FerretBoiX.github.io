@@ -1,5 +1,9 @@
 var stat = 0;
 
+if(localStorage.getItem("highscore") == null) {
+    localStorage.setItem("highscore", 0);
+}
+
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
@@ -37,8 +41,8 @@ function updater() {
 }
 
 setInterval(() => {
-    if(stat > localStorage.highscore) {
-        localStorage.highscore = stat;
+    if(stat > localStorage.getItem("highscore")) {
+        localStorage.setItem("highscore", Math.trunc(stat));
     }
-    hiscore.innerHTML = "שיא נוכחי: " + localStorage.highscore;
+    hiscore.innerHTML = "שיא נוכחי: " + localStorage.getItem("highscore");
 }, 1000);
