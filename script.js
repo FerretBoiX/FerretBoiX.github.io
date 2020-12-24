@@ -1,9 +1,5 @@
 var stat = 0;
 
-if(document.cookie == null) {
-    document.cookie = "highscore=0"
-}
-
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
@@ -41,8 +37,8 @@ function updater() {
 }
 
 setInterval(() => {
-    if(stat > getCookie("highscore")) {
-        document.cookie = "highscore=" + Math.trunc(stat);
+    if(stat > localStorage.highscore) {
+        localStorage.highscore = stat;
     }
-    hiscore.innerHTML = "שיא נוכחי:" + getCookie("highscore");
+    hiscore.innerHTML = "שיא נוכחי: " + localStorage.highscore;
 }, 1000);
