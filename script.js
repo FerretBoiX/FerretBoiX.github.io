@@ -1,5 +1,9 @@
 var stat = 0;
 
+if(document.cookie == null) {
+    document.cookie = "highscore=0"
+}
+
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
