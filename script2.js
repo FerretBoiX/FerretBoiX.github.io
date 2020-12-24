@@ -21,21 +21,21 @@ function updater2() {
         stat = 1;
     } else if (stat == 4.1) {
         element.innerHTML = "אתה תוקף את בלה.</br>בתוך פחות משנייה אתה מבין את הטעות שעשית.</br>קרני הלייזר הרצחניות של בלה שורפות לך את האיברים.</br>אתה לא הגיבור שכולנו היינו צריכים.";
-        stat = 5;
+        stat = 1;
     } else if (stat == 4.2) {
         element.innerHTML = "אתה קופץ מהחלון בניסיון לברוח.</br>חתיכת מפגר מה חשבת לעצמך שתשרוד נפילה של בניין?";
         stat = 1;
     } else if (stat == 4.3) {
         element.innerHTML = "השיעמום כל כך גדול.</br>אתה לא יכול לסבול את זה והמוח שלך מתפוצץ.";
         stat = 1;
+    } else if (stat == 4.4) {
+        element.innerHTML = "אתה לא יכול יותר.</br>הקול של בלה חודר לך לתוך הנשמה.</br>אתה פשוט לא יכול.</br>אתה יוצא מהכיתה ועולה אל הגג.";
+        stat = 5;
     } else if (stat == 5.1) {
-        element.innerHTML = "Your friend was beaten hard..</br>He never wants to talk to you again.";
-        stat = 1;
+        element.innerHTML = "הידיים שלך רועדות.</br>אתה לא יכול להתגבר על הקול של בלה.</br>אתה כבר לא שולט בעצמך.</br>אתה נופל למותך.</br>הכול שחור. כל מה שאתה רואה זה דמות שחורה ומסתורית.";
+        stat = 6;
     } else if (stat == 5.2) {
-        element.innerHTML = "You tell them to f*ck off.</br>They punch your face and break your nose.";
-        stat = 1;
-    }  else if (stat == 5.3) {
-        element.innerHTML = "You call a teacher.</br>They stop the bullies and you get +5 points in the next test.";
+        element.innerHTML = "הידיים שלך רועדות.</br>אתה לא יכול להתגבר על הקול של בלה.</br>אתה קופץ.</br>הכול שחור. כל מה שאתה רואה זה דמות שחורה ומסתורית.";
         stat = 6;
     }
 }

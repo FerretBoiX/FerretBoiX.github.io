@@ -31,11 +31,15 @@ function updater() {
     } else if (stat == 4) {
         level.innerHTML = "Level 3";
         element.innerHTML = "אתה נכנס לשיעור עם בלה לא חבר. </br>השיעמום כל כך גדול ואתה לא יכול לעמוד בזה.</br>אתה חייב לפעול.</br><b>מה תעשה?<b></br>" +
-         '<input class ="btn" type="submit" value="תקוף את בלה" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="תקפוץ מהחלון בניסיון לברוח מהשיעור" onclick="stat = 4.2;" /><input class ="btn" type="submit" value="תשב בשקט כמו ילד טוב ותקשיב לשיעור" onclick="stat = 4.3;" />';
+         '<input class ="btn" type="submit" value="תקוף את בלה" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="תקפוץ מהחלון בניסיון לברוח מהשיעור" onclick="stat = 4.2;" /><input class ="btn" type="submit" value="תשב בשקט כמו ילד טוב ותקשיב לשיעור" onclick="stat = 4.3;" /><input class ="btn" type="submit" value="תסיים את זה אחת ולתמיד" onclick="stat = 4.4;" />';
     } else if (stat == 5) {
         level.innerHTML = "Level 4";
-        element.innerHTML = "You see some kids bullying your best friend</br><b>מה תעשה?<b></br>" +
-         '<input class ="btn" type="submit" value="Just watch it" onclick="stat = 5.1;" /><input class ="btn" type="submit" value="Stand for them once and for all" onclick="stat = 5.2;" /><input class ="btn" type="submit" value="Tell a teacher" onclick="stat = 5.3;" />';
+        element.innerHTML = "<b>מה תעשה?<b></br>" +
+        '<input class ="btn" type="submit" value="שלוט בעצמך!" onclick="stat = 2.1;" /><input class ="btn" type="submit" value="קפוץ!" onclick="stat = 2.2;" />';
+    } else if (stat == 6) {
+        level.innerHTML = "Level 5";
+        element.innerHTML = "<b>המשך יבוא...<b></br>" +
+        '<input class ="btn" type="submit" value="קבל את הפרס שלך" onclick="window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO")"/>';
     } 
     updater2();
 }
