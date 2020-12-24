@@ -2,29 +2,32 @@ var element = document.getElementById("Starter");
 
 function updater2() {
     if (stat == 2.1) {
-        element.innerHTML = "You died!";
+        element.innerHTML = "אתה מת!";
         stat = 1;
     } else if (stat == 2.2) {
-        element.innerHTML = "You told the teacher you get bullied.</br>Everything went alright!</br>All the bullies were kicked out of school.";
-        stat = 3;
+        element.innerHTML = "כולם מתים.</br>אתה מסתכל על הרצפה בהבנה שאין דרך אחורה.</br>כוחות המשטרה מציפים את המקום ותוך שניות אחדות נמחק לך העתיד.";
+        stat = 1;
     }  else if (stat == 2.3) {
-        element.innerHTML = "You fought back!</br>One of the teachers caught you and you were kicked out of school.";
-        stat = 1;
+        element.innerHTML = "אתה ממשיך לכיוון הכיתה ורואה את כל החברים שלך. אתה נזכר שיש לך סכיזופרניה ונדמה לך כאילו הם כולם מייקל ריצארדס.";
+        stat = 3;
     } else if (stat == 3.1) {
-        element.innerHTML = "You just broke up with her and continued your life.</br>Maybe you'll find a better girlfriend one day.";
-        stat = 4;
-    } else if (stat == 3.2) {
-        element.innerHTML = "You just ignore the fact.</br>One day she asks you when will you marry her.</br>Tears drop and you have a mental breakdown.</br>You can't do it anymore so you die.";
+        element.innerHTML = "בעטת כל כך חזק שהדלת חזרה אליך וגרמה לזעזוע מוח ולרגל שבורה</br>חטפת שבץ ומתת.";
         stat = 1;
+    } else if (stat == 3.2) {
+        element.innerHTML = "אתה נכנס לכיתה ויושב.</br>השיעמום כל כך גדול שנשרפת לך כלייה.</br>למזלך שרדת את איבוד הכלייה.</br>אתה גיבור גדול!</br>אתה ממשיך לשיעור גיאוגרפיה.";
+        stat = 4;
     }  else if (stat == 3.3) {
-        element.innerHTML = "You murdered her.</br>Police found you were the one who killed her.</br>What were you expecting would happen?!.";
+        element.innerHTML = "אתה נכנס לכיתה עם הבולבול הקטן שלך.</br>כולם צוחקים על כמה שהבולבול שלך קטן</br>הבושה כל כך גדולה שאתה שולף סכין ובוחר לסיים את זה.";
         stat = 1;
     } else if (stat == 4.1) {
-        element.innerHTML = "You get depressed.</br>Nothing matters to you anymore.</br>You go living in the streets and die because of hunger.";
-        stat = 1;
-    } else if (stat == 4.2) {
-        element.innerHTML = "You don\'t need them.</br>If they can\'t understand you somebody else can.</br>Maybe one day you'll find a boyfriend..";
+        element.innerHTML = "אתה מזיין את בלה.</br>איבר המין שלה כל כך נעים ורטוב/</br>האורגזמה כל כך טובה שאתה חוזר בזמן כמה דקות עם היכולת לסבול שיעמום גדול.";
         stat = 5;
+    } else if (stat == 4.2) {
+        element.innerHTML = "אתה קופץ מהחלון בניסיון לברוח.</br>חתיכת מפגר מה חשבת לעצמך שתשרוד נפילה של בניין?";
+        stat = 1;
+    } else if (stat == 4.3) {
+        element.innerHTML = "השיעמום כל כך גדול.</br>אתה לא יכול לסבול את זה והמוח שלך מתפוצץ.";
+        stat = 1;
     } else if (stat == 5.1) {
         element.innerHTML = "Your friend was beaten hard..</br>He never wants to talk to you again.";
         stat = 1;
@@ -36,5 +39,3 @@ function updater2() {
         stat = 6;
     }
 }
-
-setInterval(updater2, 2500);
