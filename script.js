@@ -1,7 +1,7 @@
 var stat = 0;
 
 if(localStorage.getItem("highscore") == null) {
-    localStorage.setItem("highscore", 0);
+    localStorage.setItem("highscore", 1);
 }
 
 function getCookie(name) {
@@ -44,5 +44,5 @@ setInterval(() => {
     if(stat > localStorage.getItem("highscore")) {
         localStorage.setItem("highscore", Math.trunc(stat));
     }
-    hiscore.innerHTML = "שיא נוכחי: " + localStorage.getItem("highscore");
+    hiscore.innerHTML = "שיא נוכחי: " + String(parseInt(localStorage.getItem("highscore")) - 1);
 }, 1000);
