@@ -35,7 +35,7 @@ function updater() {
     } else if (stat == 5) {
         level.innerHTML = "Level 4";
         element.innerHTML = "<b>מה תעשה?<b></br>" +
-        '<input class ="btn" type="submit" value="שלוט בעצמך!" onclick="stat = 2.1;" /><input class ="btn" type="submit" value="קפוץ!" onclick="stat = 2.2;" />';
+        '<input class ="btn" type="submit" value="שלוט בעצמך!" onclick="stat = 6.1;" /><input class ="btn" type="submit" value="קפוץ!" onclick="stat = 6.2;" />';
     } else if (stat == 6) {
         level.innerHTML = "Level 5";
         element.innerHTML = "<b>המשך יבוא...<b></br>" +
