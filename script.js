@@ -1,7 +1,14 @@
 var stat = 0;
 
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
 var element = document.getElementById("Starter");
 var level = document.getElementById("level");
+var hiscore = document.getElementById("hiscore");
 
 function updater() {
     if (stat == 0) {
@@ -28,3 +35,10 @@ function updater() {
     } 
     updater2();
 }
+
+setInterval(() => {
+    if(stat > getCookie("highscore")) {
+        document.cookie = "highscore=" + Math.trunc(stat);
+    }
+    hiscore.innerHTML = getCookie("highscore");
+}, 1000);
