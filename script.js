@@ -44,5 +44,5 @@ setInterval(() => {
     if(stat > getCookie("highscore")) {
         document.cookie = "highscore=" + Math.trunc(stat);
     }
-    hiscore.innerHTML = getCookie("highscore");
+    hiscore.innerHTML = "שיא נוכחי:" + getCookie("highscore");
 }, 1000);
