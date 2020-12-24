@@ -39,7 +39,7 @@ function updater() {
     } else if (stat == 6) {
         level.innerHTML = "Level 5";
         element.innerHTML = "<b>המשך יבוא...<b></br>" +
-        '<input class ="btn" type="submit" value="קבל את הפרס שלך" onclick="window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO")"/>';
+        '<a class ="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"/>קבל את הפרס שלך</a>';
     } 
     updater2();
 }
