@@ -30,12 +30,12 @@ function updater() {
          '<input class ="btn" type="submit" value="אתה נכנס לכיתה ובועט בדלת באגרסיביות." onclick="stat = 3.1;" /><input class ="btn" type="submit" value="תיכנס לכיתה ושב בשקט" onclick="stat = 3.2;" /><input class ="btn" type="submit" value="תנסה להרשים את הבנות ותיכנס לכיתה עם הבולבול בחוץ" onclick="stat = 3.3;" />';
     } else if (stat == 4) {
         level.innerHTML = "Level 3";
-        element.innerHTML = "אתה נכנס לשיעור עם בלה לא חבר. </br>השיעמום כל כך גדול ואתה לא יכול לעמוד בזה.</br>אתה חייב לפעול.</br><b>מה תעשה?<b></br>" +
-         '<input class ="btn" type="submit" value="תקוף את בלה" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="תקפוץ מהחלון בניסיון לברוח מהשיעור" onclick="stat = 4.2;" /><input class ="btn" type="submit" value="תשב בשקט כמו ילד טוב ותקשיב לשיעור" onclick="stat = 4.3;" /><input class ="btn" type="submit" value="תסיים את זה אחת ולתמיד" onclick="stat = 4.4;" />';
+        element.innerHTML = "אתה נכנס לשיעור עם המורה לגיאוגרפיה. </br>השיעמום כל כך גדול ואתה לא יכול לעמוד בזה.</br>אתה חייב לפעול.</br><b>מה תעשה?<b></br>" +
+         '<input class ="btn" type="submit" value="תקוף את המורה לגיאוגרפיה" onclick="stat = 4.1;" /><input class ="btn" type="submit" value="תקפוץ מהחלון בניסיון לברוח מהשיעור" onclick="stat = 4.2;" /><input class ="btn" type="submit" value="תשב בשקט כמו ילד טוב ותקשיב לשיעור" onclick="stat = 4.3;" /><input class ="btn" type="submit" value="תבקש לצאת לשירותים" onclick="stat = 4.4;" />';
     } else if (stat == 5) {
         level.innerHTML = "Level 4";
-        element.innerHTML = "<b>מה תעשה?<b></br>" +
-        '<input class ="btn" type="submit" value="שלוט בעצמך!" onclick="stat = 5.1;" /><input class ="btn" type="submit" value="קפוץ!" onclick="stat = 5.2;" />';
+        element.innerHTML = "סיימת לחרבן.</br>יום הלימודים נגמר.</br>אתה בדרכך הביתה.</br>הדרך מלאה סכנות.</br><b>באיזו דרך תלך הביתה??<b></br>" +
+        '<input class ="btn" type="submit" value="קח אוטובוס" onclick="stat = 5.1;" /><input class ="btn" type="submit" value="לך ברגל" onclick="stat = 5.2;" /><input class ="btn" type="submit" value="התקשר לאמא" onclick="stat = 5.3;" />';
     } else if (stat == 6) {
         level.innerHTML = "Level 5";
         element.innerHTML = "<b>המשך יבוא...<b></br>" +
