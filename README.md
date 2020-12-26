@@ -1,1 +1,1 @@
-# Source code for Realife decisions simulator™
+# קוד מקור לסימולטור בית ספר
