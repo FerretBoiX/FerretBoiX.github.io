@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T11:39:41.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wEnGKPHYcxNjqL6q_VTY" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T11:44:37.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="H0Yl8fGvdo4cfB6CqQj_" version="14.1.2" type="github">
   <diagram id="Cu5V5KgqSv17Ko4OS9BQ" name="Page-1">
-    <mxGraphModel dx="687" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="573" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,9 @@
         <mxCell id="gz2-CgeXObaSSJoPXU8p-18" value="מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="555" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-20" target="gz2-CgeXObaSSJoPXU8p-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gz2-CgeXObaSSJoPXU8p-20" value="תעזוב הכול ולך למכולת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="520" width="120" height="20" as="geometry" />
         </mxCell>
@@ -121,7 +124,31 @@
           <mxGeometry x="1180" y="720" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gz2-CgeXObaSSJoPXU8p-40" value="אתה גונב לאחת הבנות את הפד מאיבר המין.&lt;br&gt;אתה שם את הפד והדימום נעצר וזה גורם לך לקבל אורגזמה,&lt;br&gt;אך אתה מקבל תלונה במשטרה על הטרדה מינית ואתה בכלא." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="625" width="300" height="50" as="geometry" />
+          <mxGeometry x="1610" y="490" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-42" target="gz2-CgeXObaSSJoPXU8p-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-42" target="gz2-CgeXObaSSJoPXU8p-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-42" target="gz2-CgeXObaSSJoPXU8p-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-42" target="gz2-CgeXObaSSJoPXU8p-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-42" value="הגעת למכולת.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-44" value="תאונן על המוכרת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="465" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-47" value="תוציא את תיק הקוקאין שלך ותתחיל להסניף שורות." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-50" value="שלוף את האיבר והתחל לנענע אותו מול כולם" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="395" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
