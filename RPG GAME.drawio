@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T11:25:55.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2WqliWMXbS9vXN1TRynC" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T11:39:41.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wEnGKPHYcxNjqL6q_VTY" version="14.1.2" type="github">
   <diagram id="Cu5V5KgqSv17Ko4OS9BQ" name="Page-1">
     <mxGraphModel dx="687" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
       <root>
@@ -54,8 +54,74 @@
         <mxCell id="gz2-CgeXObaSSJoPXU8p-14" value="אתה קופץ בטעות לתוך בריכת התנינים המלאה בלבה שיש לך בחצר.&lt;br&gt;אתה יודע מה הולך לקרות עכשיו." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="155" y="700" width="330" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-16" target="gz2-CgeXObaSSJoPXU8p-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gz2-CgeXObaSSJoPXU8p-16" value="אתה הולך לדאנג&#39;ן.&lt;br&gt;אתה מקבל בתחת חזק אך לפתע אתה נזכר כי שכחת לקנות עגבניות." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="330" height="30" as="geometry" />
+          <mxGeometry x="210" y="450" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-18" target="gz2-CgeXObaSSJoPXU8p-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-18" target="gz2-CgeXObaSSJoPXU8p-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-18" value="מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="555" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-20" value="תעזוב הכול ולך למכולת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-24" target="gz2-CgeXObaSSJoPXU8p-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-24" value="תישאר בדאנג&#39;ן ותקבל בתחת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-26" target="gz2-CgeXObaSSJoPXU8p-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-26" value="קיבלת בתחת חזק מדי.&lt;br&gt;יורד לך דם." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="635" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-28" target="gz2-CgeXObaSSJoPXU8p-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-28" target="gz2-CgeXObaSSJoPXU8p-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-28" target="gz2-CgeXObaSSJoPXU8p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-28" value="מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="640" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-30" target="gz2-CgeXObaSSJoPXU8p-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-30" value="תגנוב לאחת החמוסות בדאנג&#39;ן את הפדים" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="640" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-32" target="gz2-CgeXObaSSJoPXU8p-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-32" value="תבקש מאחת הבנות ללקק לך את התחת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="740" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gz2-CgeXObaSSJoPXU8p-34" target="gz2-CgeXObaSSJoPXU8p-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-34" value="תדחוף דילדו לחור התחת בתקווה שהדימום יפסיק" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="555" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-36" value="דחפת את הדילדו&amp;nbsp; עמוק מדי וקרעת לעצמך את הריאות.&lt;br&gt;אתה מת." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="550" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-38" value="אחת הבנות מלקקת לך את התחת והדימום נעצר.&lt;br&gt;לאחר כשלושה ימים אתה מקבל תביעה כי היא חטפה הרפס.&lt;br&gt;אתה נשאר עני ברחוב ללא אוכל או כסף.&lt;br&gt;אתה מנסה להדליק מדורה אך השמן שנשאר עליך מהדאנג&#39;ן שורף אותך לעפר." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="720" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gz2-CgeXObaSSJoPXU8p-40" value="אתה גונב לאחת הבנות את הפד מאיבר המין.&lt;br&gt;אתה שם את הפד והדימום נעצר וזה גורם לך לקבל אורגזמה,&lt;br&gt;אך אתה מקבל תלונה במשטרה על הטרדה מינית ואתה בכלא." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="625" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
