@@ -1,1 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2021-03-07T20:33:42.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.4" etag="6E5-8ksSwdLiF_2LDCPR" type="github"><diagram id="4XXK4gW_oB8lyFURtpog">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-07T20:49:37.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="96DXGWBC0c9nSg1KN9c-" version="14.4.4" type="github">
+  <diagram id="4XXK4gW_oB8lyFURtpog" name="Page-1">
+    <mxGraphModel dx="4124" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ggvPUzh0asJwo9RAz09A-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-4" target="ggvPUzh0asJwo9RAz09A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-4" target="ggvPUzh0asJwo9RAz09A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-4" target="ggvPUzh0asJwo9RAz09A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-4" value="הכלא הוא מקום מסוכן וכואב.&lt;br&gt;אתה צריך לברוח מהכלא.&lt;br&gt;מה תעשה?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="555" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-6" target="ggvPUzh0asJwo9RAz09A-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-6" value="תכה את השומר למוות" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-10" target="ggvPUzh0asJwo9RAz09A-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-10" value="תלך להכין חביתה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="650" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-12" target="ggvPUzh0asJwo9RAz09A-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="580" />
+              <mxPoint x="1290" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-12" value="תברח מהכלא" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-14" value="ברחת מהכלא.&lt;br&gt;עבודה טובה!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-16" target="ggvPUzh0asJwo9RAz09A-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-16" target="ggvPUzh0asJwo9RAz09A-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-16" value="הכנת חביתה.&lt;br&gt;מה עכשיו" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="770" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-18" target="ggvPUzh0asJwo9RAz09A-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-18" value="תלך להכין חביתה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="815" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-20" value="השוטר ראה אותך מכין חביתה וזיין אותך למוות." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="850" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-24" target="ggvPUzh0asJwo9RAz09A-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-24" target="ggvPUzh0asJwo9RAz09A-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-24" target="ggvPUzh0asJwo9RAz09A-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-24" value="נכנסת לקרב עם השומר.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="295" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-26" target="ggvPUzh0asJwo9RAz09A-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-26" value="תן לו מימין" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.016;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-28" target="ggvPUzh0asJwo9RAz09A-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.0000000000002" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-28" value="תן לו משמאל" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="355" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-30" target="ggvPUzh0asJwo9RAz09A-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-30" value="תזיין אותו" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-32" target="ggvPUzh0asJwo9RAz09A-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-32" target="ggvPUzh0asJwo9RAz09A-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-32" target="ggvPUzh0asJwo9RAz09A-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-32" value="איבדת את הבתולין!&lt;br&gt;כל הכבוד!&lt;br&gt;כל השומרים בכלא מכוונים עליך.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-46" target="ggvPUzh0asJwo9RAz09A-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-46" value="תן להם מימין" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-48" target="ggvPUzh0asJwo9RAz09A-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-48" value="תן להם משמאל" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="365" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-50" target="ggvPUzh0asJwo9RAz09A-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-50" value="שתה כוס מים קרים" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="300" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-52" value="השוטרים ריססו לך את כל הגוף יא מפגר" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="300" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-62" target="ggvPUzh0asJwo9RAz09A-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-62" value="תאכל את החביתה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="720" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-64" target="ggvPUzh0asJwo9RAz09A-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-64" value="נחקת למוות אך הצלחת לשרוד" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-68" value="בטעות ירקת את החביתה לפה של שוטר.&lt;br&gt;השוטר נחנק למוות.&lt;br&gt;השוטרים ריססו אותך." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="705" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
