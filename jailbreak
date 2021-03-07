@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-07T20:49:37.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="96DXGWBC0c9nSg1KN9c-" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-07T20:56:50.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="EUsz352Kj-JFObMnnGdM" version="14.4.4" type="github">
   <diagram id="4XXK4gW_oB8lyFURtpog" name="Page-1">
-    <mxGraphModel dx="4124" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ggvPUzh0asJwo9RAz09A-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-4" target="ggvPUzh0asJwo9RAz09A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-4" target="ggvPUzh0asJwo9RAz09A-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ggvPUzh0asJwo9RAz09A-4" value="הכלא הוא מקום מסוכן וכואב.&lt;br&gt;אתה צריך לברוח מהכלא.&lt;br&gt;מה תעשה?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -145,6 +148,15 @@
         </mxCell>
         <mxCell id="ggvPUzh0asJwo9RAz09A-68" value="בטעות ירקת את החביתה לפה של שוטר.&lt;br&gt;השוטר נחנק למוות.&lt;br&gt;השוטרים ריססו אותך." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="705" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ggvPUzh0asJwo9RAz09A-70" target="ggvPUzh0asJwo9RAz09A-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-70" value="תמצוץ תמנון אוסטרלי רעיל ונדיר ביותר" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="755" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ggvPUzh0asJwo9RAz09A-72" value="אבל למה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="850" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
