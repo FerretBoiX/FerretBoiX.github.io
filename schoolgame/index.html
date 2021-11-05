@@ -1,0 +1,42 @@
+<!doctype HTML>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="סימולטור בית ספר">
+    <meta name="author" content="Ferret">
+    <link rel="icon" href="/icon.png">
+
+    <title>סימולטור בית ספר</title>
+    <link rel="stylesheet" href="style.css">
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+</head>
+
+<body style="background-image: linear-gradient(to left, rgb(136, 136, 136) , lightgray);">
+    <h1 style="color: rgb(0, 0, 0); margin-left: 25%;">
+        <u><p>סימולטור בית ספר</p></u>
+    </h1>
+    <h3>
+        <b><p style="color: gold;">ברוך הבא אל סימולטור בית ספר.</p></b>
+    </h3> 
+    <h4>
+        <p><oof style="color: lime;">סימולטור בית ספר הוא משחק בחירות פשוט.</oof></br><oof style="color: aqua;">ניתנת לך סיטואציה ואתה צריך לבחור את האפשרות הנכונה.</oof></br><oof style="color: bisque;">בחירת האפשרות הנכונה תעלה אותך לשלב הבא,</br>ובחירת האפשרות השגויה תסיים את המשחק..</oof></p>
+        <p style="margin: 0; padding: 0;"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">למידע נוסף לחצו כאן.</a></p>
+    </h4>
+    </br>
+    <p id="hiscore">שיא נוכחי:</p>
+    <input class="btn" type="submit" value="התחל" onclick="stat = 2; updater()" />
+    <b><p id="level"></p></b>
+    <h4 id="Starter"></h4>
+    <input id="continue" class="btn" type="submit" value="המשך" onclick="updater()" />
+    <div class="watermark">
+        <p><a href="https://github.com/FerretBoiX/FerretBoiX.github.io" style="color: white;">קוד מקור</a></p>
+        <p><i>~Ferret~</br>~BigD~</i></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
