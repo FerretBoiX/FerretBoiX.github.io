@@ -1,5 +1,11 @@
 var stat = 0;
 
+var referrer = document.referrer;
+
+if(referrer !== "") {
+  document.getElementById("refea").innerHTML = "<a href="+ referrer + ">חזור אחורה</a>";
+};
+
 //if(localStorage.getItem("highscore") == null) {
 //    localStorage.setItem("highscore", 1);
 //}
