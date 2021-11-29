@@ -1,3 +1,3 @@
 var referrer = document.referrer;
 
-document.getElementById("refea").innerText == "באת לכאן מ- " + referrer;
+document.getElementById("refea").innerHTML = "באת לכאן מ- " + referrer;
