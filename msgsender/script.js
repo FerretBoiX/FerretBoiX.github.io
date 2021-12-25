@@ -1,3 +1,9 @@
+var referrer = document.referrer;
+
+if(referrer !== "") {
+  document.getElementById("refea").innerHTML = "<a href="+ referrer + ">חזור אחורה</a>";
+};
+
 function sndmsg() {
     var msg = document.getElementById('msgpls').value
     var cnl = document.getElementById('cnlpls').value
