@@ -1,0 +1,66 @@
+html {
+    text-shadow: 0 3px dimgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 5%;
+}
+
+p {
+    transition: all 0.25s;
+    text-shadow: 2px 2px dimgray;
+}
+
+p:hover {
+    transform: translateX(-5px);
+}
+
+.btn {
+    transition: all 0.25s;
+    margin-right: 4px;
+    box-shadow: 0 7px rgb(88, 88, 88);
+    background-color: royalblue;
+    border-style: groove;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: crosshair;
+    background-color: rgb(50, 82, 177)
+}
+
+.btn:active {
+    box-shadow: 0 5px rgb(61, 61, 61);
+    transform: translateY(2px) scale(1.1);
+}
+
+.taxt {
+    transition: all 0.25s;
+    margin-right: 4px;
+    box-shadow: 0 7px rgb(88, 88, 88);
+    background-color: royalblue;
+    border-style: groove;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 0;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
