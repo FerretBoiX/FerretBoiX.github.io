@@ -21,14 +21,14 @@ p:hover {
     transition: all 0.25s;
     margin-right: 4px;
     box-shadow: 0 7px rgb(88, 88, 88);
-    background-color: royalblue;
+    background-color: rgb(155, 155, 155);
     border-style: groove;
 }
 
 .btn:hover {
     transform: scale(1.1);
     cursor: crosshair;
-    background-color: rgb(50, 82, 177)
+    background-color: rgb(124, 124, 124)
 }
 
 .btn:active {
