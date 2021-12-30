@@ -1,0 +1,16 @@
+body {
+    background-color: #d9dfdf;;
+    font-family: 'Open Sans';
+    font-size: 35px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.lrghover {
+    transition: transform .2s;
+}
+
+.lrghover:hover {
+    transform: scale(1.2);
+}
