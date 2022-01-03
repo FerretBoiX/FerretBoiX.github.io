@@ -9,20 +9,20 @@ body {
 
 .anim3 {
     opacity: 0;
-    -webkit-animation: fadein 2s ease-in forwards; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s ease-in forwards; /* Firefox < 16 */
-        -ms-animation: fadein 2s ease-in forwards; /* Internet Explorer */
-         -o-animation: fadein 2s ease-in forwards; /* Opera < 12.1 */
-            animation: fadein 2s ease-in forwards;
+    -webkit-animation: fadein 2s ease-in-out forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s ease-in-out forwards; /* Firefox < 16 */
+        -ms-animation: fadein 2s ease-in-out forwards; /* Internet Explorer */
+         -o-animation: fadein 2s ease-in-out forwards; /* Opera < 12.1 */
+            animation: fadein 2s ease-in-out forwards;
 }
 
 .anim4 {
     opacity: 0;
-    -webkit-animation: fadein 2s ease-in forwards; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s ease-in forwards; /* Firefox < 16 */
-        -ms-animation: fadein 2s ease-in forwards; /* Internet Explorer */
-         -o-animation: fadein 2s ease-in forwards; /* Opera < 12.1 */
-            animation: fadein 2s ease-in forwards;
+    -webkit-animation: fadein 2s ease-in-out forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s ease-in-out forwards; /* Firefox < 16 */
+        -ms-animation: fadein 2s ease-in-out forwards; /* Internet Explorer */
+         -o-animation: fadein 2s ease-in-out forwards; /* Opera < 12.1 */
+            animation: fadein 2s ease-in-out forwards;
     -webkit-animation-delay: 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation-delay: 2s; /* Firefox < 16 */
         -ms-animation-delay: 2s; /* Internet Explorer */
@@ -32,11 +32,11 @@ body {
 
 .anim5 {
     opacity: 0;
-    -webkit-animation: fadein 2s ease-in forwards; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s ease-in forwards; /* Firefox < 16 */
-        -ms-animation: fadein 2s ease-in forwards; /* Internet Explorer */
-         -o-animation: fadein 2s ease-in forwards; /* Opera < 12.1 */
-            animation: fadein 2s ease-in forwards;
+    -webkit-animation: fadein 2s ease-in-out forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s ease-in-out forwards; /* Firefox < 16 */
+        -ms-animation: fadein 2s ease-in-out forwards; /* Internet Explorer */
+         -o-animation: fadein 2s ease-in-out forwards; /* Opera < 12.1 */
+            animation: fadein 2s ease-in-out forwards;
     -webkit-animation-delay: 4s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation-delay: 4s; /* Firefox < 16 */
         -ms-animation-delay: 4s; /* Internet Explorer */
@@ -46,11 +46,11 @@ body {
 
 .anim6 {
     opacity: 0;
-    -webkit-animation: fadein 2s ease-in forwards; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s ease-in forwards; /* Firefox < 16 */
-        -ms-animation: fadein 2s ease-in forwards; /* Internet Explorer */
-         -o-animation: fadein 2s ease-in forwards; /* Opera < 12.1 */
-            animation: fadein 2s ease-in forwards;
+    -webkit-animation: fadein 2s ease-in-out forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s ease-in-out forwards; /* Firefox < 16 */
+        -ms-animation: fadein 2s ease-in-out forwards; /* Internet Explorer */
+         -o-animation: fadein 2s ease-in-out forwards; /* Opera < 12.1 */
+            animation: fadein 2s ease-in-out forwards;
     -webkit-animation-delay: 6s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation-delay: 6s; /* Firefox < 16 */
         -ms-animation-delay: 6s; /* Internet Explorer */
