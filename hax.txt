@@ -1,4 +1,4 @@
-https://vaadhavibe.com/he/home
+vaadhavibe
 
 subtotal_price 		= 0;
 		vat 				= 0;
