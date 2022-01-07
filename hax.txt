@@ -1,0 +1,24 @@
+https://vaadhavibe.com/he/home
+
+subtotal_price 		= 0;
+		vat 				= 0;
+		grand_total = 0;
+					subtotal_shipping	= 0;
+			grand_total = 0;
+				
+		if($("#coupon-sum").length != 0){
+			coupon	= 0;
+			grand_total = 0;
+		}
+
+		$("#grand_total_sum").html(addCommas(toFixed(grand_total,2)));
+		
+		if(grand_total <= 0){
+			$("#grand_total_sum").html(addCommas(toFixed(0,2)));
+			free_order_button = '<a class="payment-button free-order" data-transactor-id="0" href="javascript:;">לסיום הזמנה</a>';
+			$("#ecom-checkout-payment .payment-button").hide();
+			$("#ecom-checkout-payment").append(free_order_button);
+		}else{
+			$("#ecom-checkout-payment .free-order").remove();
+			$("#ecom-checkout-payment .payment-button").show();
+		}
