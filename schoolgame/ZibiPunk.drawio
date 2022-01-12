@@ -1,11 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T16:14:14.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8s0VufLwQP9kz42fStP_" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T18:44:14.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jWM2Z6j_f7wYOXhX7ey2" version="15.7.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="xjUpx1VEh0OBUNoxHW7A-10" value="בעולם שבו כולם ערסים,&lt;br&gt;רק החזקים שורדים" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="285" y="645" width="130" height="30" as="geometry" />
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xjUpx1VEh0OBUNoxHW7A-10" target="5cRP0BGtr-pqFrCVEow7-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xjUpx1VEh0OBUNoxHW7A-10" value="נשאר רק עוד כביש אחד בינך לבין הבית,&lt;br&gt;אך לפתע.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="20" y="645" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-0" target="5cRP0BGtr-pqFrCVEow7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-0" value="שער בין יקומי נפתח אל מול עינך.&lt;br&gt;מתוך השער יוצא אדם זר אשר לא ראית קודם." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5" y="700" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-2" target="5cRP0BGtr-pqFrCVEow7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-2" value="הוא אומר לך לבוא איתו אך אתה מסרב.&lt;br&gt;הוא אומר לך שאתה חייב לבוא איתו ושאין לו זמן להסביר,&amp;nbsp;&lt;br&gt;אך אתה עדיין מסרב." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="690" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-4" target="5cRP0BGtr-pqFrCVEow7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-4" value="לפתע אתה רואה את ההומלס מתפתח לסופר סאייה ושט לכיוונך.&lt;br&gt;כבר לא אכפת לך מי הוא האדם המסתורי ואתה נכנס איתו אל תוך השער הבין יקומי." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="630" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-9" target="5cRP0BGtr-pqFrCVEow7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-9" value="אתה מגיע למקום מוזר.&lt;br&gt;אתה לא חש בטוב, כולך מסוחרר ועייף ולא מבין מה קורה מסביבך." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="580" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-11" value="חמוס&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-12" target="5cRP0BGtr-pqFrCVEow7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-12" value="האדם המסתורי עוזר לך לקום ומצטער על כך שלא היה לו זמן להסביר." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="540" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-14" target="5cRP0BGtr-pqFrCVEow7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-14" value="&quot;שמי חמוס הגאנגבאנג הבין-מימדי ואתה נבחרת להיות השומר הבא של יקום 6996&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="500" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-19" value="שמי חמוס הגאנגבאנג הבין-מימדי ואתה נבחרת להיות השומר הבא של יקום 6996" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="500" width="390" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
