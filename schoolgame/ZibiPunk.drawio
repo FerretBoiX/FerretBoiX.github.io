@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T18:44:14.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jWM2Z6j_f7wYOXhX7ey2" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T20:09:17.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XScPhFNlXbe9k24jQavW" version="15.7.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,49 +8,152 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xjUpx1VEh0OBUNoxHW7A-10" value="נשאר רק עוד כביש אחד בינך לבין הבית,&lt;br&gt;אך לפתע.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="645" width="200" height="30" as="geometry" />
+          <mxGeometry x="100" y="760" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-0" target="5cRP0BGtr-pqFrCVEow7-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-0" value="שער בין יקומי נפתח אל מול עינך.&lt;br&gt;מתוך השער יוצא אדם זר אשר לא ראית קודם." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5" y="700" width="230" height="30" as="geometry" />
+          <mxGeometry x="340" y="760" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-2" target="5cRP0BGtr-pqFrCVEow7-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-2" value="הוא אומר לך לבוא איתו אך אתה מסרב.&lt;br&gt;הוא אומר לך שאתה חייב לבוא איתו ושאין לו זמן להסביר,&amp;nbsp;&lt;br&gt;אך אתה עדיין מסרב." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="690" width="280" height="50" as="geometry" />
+          <mxGeometry x="620" y="750" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5cRP0BGtr-pqFrCVEow7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-4" target="5cRP0BGtr-pqFrCVEow7-9">
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-4" target="5cRP0BGtr-pqFrCVEow7-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="738" />
+              <mxPoint x="1210" y="738" />
+              <mxPoint x="1210" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-4" target="5cRP0BGtr-pqFrCVEow7-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cRP0BGtr-pqFrCVEow7-4" value="לפתע אתה רואה את ההומלס מתפתח לסופר סאייה ושט לכיוונך.&lt;br&gt;כבר לא אכפת לך מי הוא האדם המסתורי ואתה נכנס איתו אל תוך השער הבין יקומי." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="235" y="630" width="400" height="30" as="geometry" />
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-4" value="לפתע אתה רואה את ההומלס מתפתח לסופר סאייה ושט לכיוונך.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="965" y="760" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-9" target="5cRP0BGtr-pqFrCVEow7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-9" value="אתה מגיע למקום מוזר.&lt;br&gt;אתה לא חש בטוב, כולך מסוחרר ועייף ולא מבין מה קורה מסביבך." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="580" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5cRP0BGtr-pqFrCVEow7-11" value="חמוס&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="440" width="30" height="60" as="geometry" />
+          <mxGeometry x="1340" y="760" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-12" target="5cRP0BGtr-pqFrCVEow7-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-12" value="האדם המסתורי עוזר לך לקום ומצטער על כך שלא היה לו זמן להסביר." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="265" y="540" width="340" height="20" as="geometry" />
+          <mxGeometry x="1690" y="765" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-14" target="5cRP0BGtr-pqFrCVEow7-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-14" value="&quot;שמי חמוס הגאנגבאנג הבין-מימדי ואתה נבחרת להיות השומר הבא של יקום 6996&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="235" y="500" width="400" height="20" as="geometry" />
+          <mxGeometry x="2080" y="765" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5cRP0BGtr-pqFrCVEow7-19" value="שמי חמוס הגאנגבאנג הבין-מימדי ואתה נבחרת להיות השומר הבא של יקום 6996" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="500" width="390" height="20" as="geometry" />
+          <mxGeometry x="2510" y="765" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-23" target="5cRP0BGtr-pqFrCVEow7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="705" />
+              <mxPoint x="1430" y="738" />
+              <mxPoint x="1500" y="738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-23" value="תיכנס לשער הבין מימדי" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="695" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-26" target="5cRP0BGtr-pqFrCVEow7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-26" value="תסרב" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1140" y="850" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-28" target="5cRP0BGtr-pqFrCVEow7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-28" target="5cRP0BGtr-pqFrCVEow7-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="988" />
+              <mxPoint x="1380" y="988" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-28" value="ההומלס תופס אותך ואונס אותך.&lt;br&gt;לאחר יום, מירב מיכאלי מגלה על כך ומשתמשת בך בתור קמפיין לבחירות.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1055" y="910" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-30" target="5cRP0BGtr-pqFrCVEow7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-30" value="תבחר בה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1055" y="1030" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-32" target="5cRP0BGtr-pqFrCVEow7-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-32" value="לא תבחר בה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="1020" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-34" value="ביבי עולה לשלטון וישראל ניצלת מאבדון.&lt;br&gt;אתה ממשיך את החיים שלך כאילו לא קרה דבר.&lt;br&gt;הכול בסדר." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="1105" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-36" target="5cRP0BGtr-pqFrCVEow7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-36" value="אתה היית הקול האחרון שהיא הייתה צריכה בשביל לנצח בבחירות.&lt;br&gt;ברכות חמות, בזכותך ארץ ישראל, היא עכשיו פלסטין.&lt;br&gt;בנוסף, שוררת בארץ ישראל מלחמת אזרחים.&lt;br&gt;אתה מרגיש שהכול בגללך ואתה מחליט לסיים את זה." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="925" y="1110" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-42" target="5cRP0BGtr-pqFrCVEow7-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1333" />
+              <mxPoint x="980" y="1333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-42" target="5cRP0BGtr-pqFrCVEow7-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1328" />
+              <mxPoint x="1240" y="1328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-42" value="לפתע, חמוס הגאנגבאנג מופיע אל מול עינייך.&lt;br&gt;הוא מציע לך לחזור בך בבחירתך.&lt;br&gt;מה תעשה עכשיו?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="975" y="1255" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-44" target="5cRP0BGtr-pqFrCVEow7-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-44" value="תסרב" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="1360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-46" value="תאשר" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="1365" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-48" value="אתה נאלץ להמשיך לחיות בגיהנום המכונה &quot;כדור הארץ&quot;.&lt;br&gt;החיים ממשיכים כרגיל, אבל הסבל גדול מתמיד.&lt;br&gt;פספסת את ההזדמנות שלך לגאולה." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="845" y="1445" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5cRP0BGtr-pqFrCVEow7-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5cRP0BGtr-pqFrCVEow7-46" target="5cRP0BGtr-pqFrCVEow7-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1550" y="1375" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
