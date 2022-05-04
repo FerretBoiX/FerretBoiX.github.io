@@ -1,3 +1,5 @@
+var $ = function( id ) { return document.getElementById( id ); };
+
 var stat = 0;
 
 var referrer = document.referrer;
@@ -10,11 +12,11 @@ if(localStorage.getItem("highscore") == null) {
     localStorage.setItem("highscore", 1);
 }
 
-var info = document.getElementById("infob");
-var btns = document.getElementById("buttonb");
-var cont = document.getElementById("beren");
-var level = document.getElementById("level");
-var hiscore = document.getElementById("hiscore");
+var info = $("infob");
+var btns = $("buttonb");
+var cont = $("beren")
+var level = $("level")
+var hiscore = $("hiscore")
 
 function updater() {
     if (stat == "0") {
