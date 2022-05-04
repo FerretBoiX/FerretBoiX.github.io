@@ -1,6 +1,6 @@
-var info = document.getElementById("infob");
-var btns = document.getElementById("buttonb");
-var cont = document.getElementById("beren");
+var info = $("infob")
+var btns = $("buttonb")
+var cont = $("beren")
 
 function updater2() {
     if (stat == "3.1") {
