@@ -23,8 +23,8 @@ peer.on('connection', function(conn) {
                 document.getElementById('butons').innerHTML = "<a href='#'><img width='100px' src='rock.png' id='rock'></img></a><a href='#'><img width='100px' src='paper.png'  id='paper'></img></a><a href='#'><img width='100px' src='scissors.png'  id='scissors'></img></a>"
     
                 document.getElementById('rock').onclick = function() {
-                    conn.send('rock')
-                    mychoice = 'rock'
+                    conn.send('beren')
+                    mychoice = 'beren'
                 };
                 document.getElementById('paper').onclick = function() {
                     conn.send('paper')
@@ -39,8 +39,8 @@ peer.on('connection', function(conn) {
                     if(data=='closing') {
                         document.getElementById('butons').innerHTML = ''
                     }
-                    if(data=='rock') {
-                        hischoice = 'rock'
+                    if(data=='beren') {
+                        hischoice = 'beren'
                         //conn.close()
                     } else  if(data=='paper') {
                         hischoice = 'paper'
@@ -74,9 +74,9 @@ document.getElementById('conButt').onclick = function() {
                 if(data=='confirmed') {
                     document.getElementById('butons').innerHTML = "<a href='#'><img width='100px' src='rock.png' id='rock'></img></a><a href='#'><img width='100px' src='paper.png'  id='paper'></img></a><a href='#'><img width='100px' src='scissors.png'  id='scissors'></img></a>"
         
-                    document.getElementById('rock').onclick = function() {
-                        conn.send('rock')
-                        mychoice = 'rock'
+                    document.getElementById('beren').onclick = function() {
+                        conn.send('beren')
+                        mychoice = 'beren'
                     };
                     document.getElementById('paper').onclick = function() {
                         conn.send('paper')
@@ -87,8 +87,8 @@ document.getElementById('conButt').onclick = function() {
                         mychoice = 'scissors'
                     };
                 }
-                if(data=='rock') {
-                    hischoice = 'rock'
+                if(data=='beren') {
+                    hischoice = 'beren'
                     //conn.close()
                 } else  if(data=='paper') {
                     hischoice = 'paper'
@@ -122,7 +122,7 @@ function lose(his, yours) {
 
 setInterval(() => {
     if(mychoice != 'empty' && hischoice != 'empty') {
-        if(mychoice == 'rock') {
+        if(mychoice == 'beren') {
             if(hischoice == 'paper') {
                 lose(hischoice, mychoice)
             } else {
@@ -135,7 +135,7 @@ setInterval(() => {
                 win(hischoice, mychoice)
             }
         } else if(mychoice == 'scissors') {
-            if(hischoice == 'rock') {
+            if(hischoice == 'beren') {
                 lose(hischoice, mychoice)
             } else {
                 win(hischoice, mychoice)
