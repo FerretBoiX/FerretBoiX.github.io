@@ -74,7 +74,7 @@ document.getElementById('conButt').onclick = function() {
                 if(data=='confirmed') {
                     document.getElementById('butons').innerHTML = "<a href='#'><img width='100px' src='rock.png' id='rock'></img></a><a href='#'><img width='100px' src='paper.png'  id='paper'></img></a><a href='#'><img width='100px' src='scissors.png'  id='scissors'></img></a>"
         
-                    document.getElementById('beren').onclick = function() {
+                    document.getElementById('rock').onclick = function() {
                         conn.send('beren')
                         mychoice = 'beren'
                     };
