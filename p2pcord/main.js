@@ -14,11 +14,13 @@ document.getElementById('conButt').onclick = function() {
           })
           .then((stream) => {
             var call = peer.call(document.getElementById('conID').value, stream);
-            const video = document.querySelector("video");
-            video.srcObject = stream;
-            video.onloadedmetadata = () => {
-              video.play();
-            };
+            call.on('stream', function(res) {
+                const video = document.querySelector("video");
+                video.srcObject = res;
+                video.onloadedmetadata = () => {
+                video.play();
+                };
+            });
           })
           .catch((err) => {
            console.log(err)
@@ -34,11 +36,13 @@ peer.on('call', function(call) {
           })
           .then((stream) => {
             call.answer(stream);
-            const video = document.querySelector("video");
-            video.srcObject = stream;
-            video.onloadedmetadata = () => {
-              video.play();
+            call.on('stream', function(res) {
+                const video = document.querySelector("video");
+                video.srcObject = res;
+                video.onloadedmetadata = () => {
+                video.play();
             };
+              });
           })
           .catch((err) => {
            console.log(err)
