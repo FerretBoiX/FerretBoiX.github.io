@@ -1,3 +1,5 @@
+function main() {
+
 var peer = new Peer(Math.random().toString(16).slice(8));
 
 peer.on('open', function(id) {
@@ -6,7 +8,6 @@ peer.on('open', function(id) {
 
 document.getElementById('conButt').onclick = function() {
     if(document.getElementById('conID').value != null) {
-        var conn = peer.connect(document.getElementById('conID').value);
         navigator.mediaDevices
           .getUserMedia({
             audio: true,
@@ -15,7 +16,7 @@ document.getElementById('conButt').onclick = function() {
           .then((stream) => {
             var call = peer.call(document.getElementById('conID').value, stream);
             call.on('stream', function(res) {
-                const video = document.querySelector("video");
+                const video = document.querySelector("audio");
                 video.srcObject = res;
                 video.onloadedmetadata = () => {
                 video.play();
@@ -37,7 +38,7 @@ peer.on('call', function(call) {
           .then((stream) => {
             call.answer(stream);
             call.on('stream', function(res) {
-                const video = document.querySelector("video");
+                const video = document.querySelector("audio");
                 video.srcObject = res;
                 video.onloadedmetadata = () => {
                 video.play();
@@ -48,3 +49,11 @@ peer.on('call', function(call) {
            console.log(err)
           });
   });
+
+  document.getElementById('disButt').onclick = function() {
+    peer.disconnect();
+    main();
+}
+}
+
+main();
