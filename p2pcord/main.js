@@ -51,6 +51,7 @@ peer.on('call', function(call) {
   });
 
   document.getElementById('disButt').onclick = function() {
+    try {call.close()} catch {}
     peer.disconnect();
     main();
 }
