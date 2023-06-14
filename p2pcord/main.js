@@ -14,6 +14,12 @@ document.getElementById('conButt').onclick = function() {
             video: false,
           })
           .then((stream) => {
+            stream.getAudioTracks()[0].applyConstraints({
+                sampleSize: 16,
+                channelCount: 2,
+                echoCancellation: true,
+                noiseSuppression: true,
+        })
             var call = peer.call(document.getElementById('conID').value, stream);
             call.on('stream', function(res) {
                 const video = document.querySelector("audio");
@@ -36,6 +42,12 @@ peer.on('call', function(call) {
             video: false,
           })
           .then((stream) => {
+            stream.getAudioTracks()[0].applyConstraints({
+                    sampleSize: 16,
+                    channelCount: 2,
+                    echoCancellation: true,
+                    noiseSuppression: true,
+            })
             call.answer(stream);
             call.on('stream', function(res) {
                 const video = document.querySelector("audio");
