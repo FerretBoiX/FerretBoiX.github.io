@@ -1,6 +1,7 @@
-function main() {
 
 var peer = new Peer("roomcord-"+prompt("Enter name"));
+
+var destrm
 
 peer.on('open', function(id) {
 	document.getElementById('youridh').innerHTML = `<strong>Your username: </strong> ${id.substring(9)}`;
@@ -25,7 +26,6 @@ document.getElementById('conButt').onclick = function() {
               call.close()
               setTimeout(() => {
                 peer.disconnect();
-              main();
               }, 250);
           }
             call.on('stream', function(res) {
@@ -41,6 +41,3 @@ document.getElementById('conButt').onclick = function() {
           });
     }
 }
-}
-
-main();

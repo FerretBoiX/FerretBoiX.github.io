@@ -9,6 +9,8 @@ function getKeyByValue(object, value) {
 var clients = [];
 var streams = [];
 
+var tmpstrm
+
 navigator.mediaDevices  
           .getUserMedia({
             audio: true,
@@ -22,9 +24,9 @@ navigator.mediaDevices
                 noiseSuppression: true,
         })
         clients["<b>Clients:</b>"] = stream
+        tmpstrm = new Array(stream.getAudioTracks()[0]);
       })
 
-var tmpstrm = [];
 
 var peer = new Peer(Math.random().toString(16).slice(8));
 
