@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+html { 
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Droid Arabic Kufi', anton, Sans-serif;
+    background-color: #1f1f1f;
+    text-align: center;
+    color: white;
+}
+
+.child {
+    align-content: center;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkred;
+}
