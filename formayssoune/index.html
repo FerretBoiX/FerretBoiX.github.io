@@ -1,335 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype HTML>
+<html lang="he" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Mayssoune</title>
-    <style>
-        /* 1. MINIMALIST AESTHETIC */
-        :root {
-            --bg: #f9f7f2;
-            --text: #333;
-            --secondary: #8c8c8c;
-            --accent: #b5a48b;
-        }
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ferret">
+    <meta name="author" content="Ferret">
+    <link rel="icon" href="/icon.png">
 
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: "Hoefler Text", "Baskerville", "Georgia", serif;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 80px;
-            max-width: 600px;
-        }
-
-        h1 {
-            font-weight: 300;
-            font-style: italic;
-            font-size: 2.2rem;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
-        }
-
-        h2 {
-            font-weight: 300;
-            font-size: 1.2rem;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
-        }
-
-        .subtitle {
-            font-size: 0.9rem;
-            color: var(--secondary);
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-
-        .deco-icons {
-            margin-top: 20px;
-            font-size: 1.2rem;
-            opacity: 0.4;
-        }
-
-        /* 3. PHOTO & VIDEO GRID */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px;
-            max-width: 1000px;
-            width: 100%;
-        }
-
-        .moment {
-            cursor: pointer;
-            transition: opacity 0.3s ease;
-        }
-
-        .moment:hover {
-            opacity: 0.8;
-        }
-
-        /* Unified style for both images and videos in the grid */
-        .moment img, .moment video {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            border: 1px solid #e0e0e0;
-            background: #fff;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        .moment-caption {
-            font-size: 0.85rem;
-            color: var(--secondary);
-            margin-top: 12px;
-            text-align: left;
-            font-style: italic;
-        }
-
-        /* 4. LIGHTBOX (Updated for Video) */
-        #lightbox {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(249, 247, 242, 0.98);
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            cursor: zoom-out;
-        }
-
-        #lightbox img, #lightbox video {
-            max-width: 90%;
-            max-height: 80%;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            display: none; /* Hidden by default, toggled by JS */
-        }
-
-        /* 5. SURPRISE SECTION */
-        .note-section {
-            margin-top: 100px;
-            text-align: center;
-            border-top: 1px solid #e0e0e0;
-            padding-top: 50px;
-            width: 100%;
-            max-width: 400px;
-        }
-
-        #personal-note {
-            display: none;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--text);
-            animation: fadeIn 1.5s ease;
-        }
-
-        .reveal-btn {
-            background: none;
-            border: 1px solid var(--accent);
-            color: var(--accent);
-            padding: 12px 30px;
-            font-family: inherit;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: 0.3s;
-        }
-
-        .reveal-btn:hover {
-            background: var(--accent);
-            color: white;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        footer {
-            margin-top: 100px;
-            font-size: 0.7rem;
-            color: var(--secondary);
-            letter-spacing: 1px;
-        }
-    </style>
+    <title>Ferret</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <header>
-        <div class="subtitle">August 2026</div>
-        <h1>For Mayssoune</h1>
-        <div class="deco-icons">🥛 &nbsp; 🎂</div>
-        <br>
-        <h2>Some random pictures and bullshit lol enjoy:</h2>
-    </header>
-
-    <main class="gallery">
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/johncrazy.png" alt="Crazy John">
-            <div class="moment-caption">john is kinda crazy</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/bans.jpg" alt="Ban">
-            <div class="moment-caption">so much ragebaiting</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/study.jpg" alt="Study">
-            <div class="moment-caption">what the hell are you studying</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/benjamin.jpg" alt="Benjamin">
-            <div class="moment-caption">wtf is john talking about</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/rex.jpg" alt="Rex">
-            <div class="moment-caption">you always hated rex</div>
-        </div>
-
-        <!-- VIDEO SECTION: Changed from <img> to <video> -->
-        <div class="moment" onclick="openLightbox(this)">
-            <video src="imgs/baguette.mov" muted loop playsinline autoplay></video>
-            <div class="moment-caption">the hell are you doing with it</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <video src="imgs/initial.mp4" muted loop playsinline autoplay></video>
-            <div class="moment-caption">sorry for this</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/schzio.jpg" alt="Schizo">
-            <div class="moment-caption">youre kinda schizo</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/candy.jpg" alt="Candy">
-            <div class="moment-caption">you were banned in this pic</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/fish.jpg" alt="Fish">
-            <div class="moment-caption">you said it looks tasty</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/gaza.png" alt="Gaza">
-            <div class="moment-caption">donate to gaza</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/morebans.jpg" alt="More Bans">
-            <div class="moment-caption">sooo much ragebaiting</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/princess.png" alt="Princess">
-            <div class="moment-caption">little moroccan princess</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/madeleine.jpg" alt="Madeleine">
-            <div class="moment-caption">whats with all the madeleines</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/milk.jpg" alt="Milk">
-            <div class="moment-caption">and all the milk</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/selfie.jpg" alt="Selfie">
-            <div class="moment-caption">john got ragebaited himself</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <img src="imgs/moreselfie.jpg" alt="Selfie more">
-            <div class="moment-caption">so we left him</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <video src="imgs/birthday.mp4" muted loop playsinline autoplay></video>
-            <div class="moment-caption">I played this for you in 2024</div>
-        </div>
-
-        <div class="moment" onclick="openLightbox(this)">
-            <video src="imgs/piano.mp4" muted loop playsinline autoplay></video>
-            <div class="moment-caption">and I play this for you now 💝</div>
-        </div>
-
-    </main>
-
-    <section class="note-section">
-        <button class="reveal-btn" onclick="revealNote()">Read the note</button>
-        <div id="personal-note">
-            Hi May,<br><br>
-            I don't know how that stupid conversation
-            about Israel and Palestine's flag colors became what
-            we have now, you're that special someone to me
-            that no matter how long we don't talk, I just know
-            I can tell you everything that sits on my heart
-            and I can trust you to be there..
-        </div>
-    </section>
-
-    <footer>From Daniel</footer>
-
-    <!-- Lightbox Modal -->
-    <div id="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-img" src="">
-        <video id="lightbox-video" controls autoplay loop></video>
-    </header>
-
-    <script>
-        function revealNote() {
-            document.getElementById('personal-note').style.display = 'block';
-            document.querySelector('.reveal-btn').style.display = 'none';
-        }
-
-        const lb = document.getElementById('lightbox');
-        const lbImg = document.getElementById('lightbox-img');
-        const lbVid = document.getElementById('lightbox-video');
-
-        function openLightbox(element) {
-            // Check if there is an image or a video inside the clicked element
-            const img = element.querySelector('img');
-            const vid = element.querySelector('video');
-
-            lb.style.display = 'flex';
-
-            if (img) {
-                lbImg.src = img.src;
-                lbImg.style.display = 'block';
-                lbVid.style.display = 'none';
-            } else if (vid) {
-                lbVid.src = vid.src;
-                lbVid.style.display = 'block';
-                lbImg.style.display = 'none';
-                lbVid.play();
-            }
-        }
-
-        function closeLightbox() {
-            lb.style.display = 'none';
-            lbImg.src = "";
-            lbVid.src = "";
-            lbVid.pause();
-        }
-    </script>
+<body style="background-image: url('ferretback.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <h1 style="color: rgb(255, 255, 255); margin-left: 25%;">
+        <u><p>חמוס</p></u>
+    </h1>
+    <h3>
+        <b><p><a style="color: rgb(221, 221, 221);" href="gangame/">חמוס הגאנגבאנג</a></p></b>
+        <b><p><a style="color: rgb(221, 221, 221);" href="schoolgame/">סימולטור בית ספר</a></p></b>
+        <b><p><a style="color: rgb(221, 221, 221);" href="gangamer/">חמוס הגאנגבאנג: אין דרך הביתה</a></p></b>
+	<b><p><a style="color: rgb(221, 221, 221);" href="msgsender/">שולח הודעות</a></p></b>
+    </h3>
+	
+    <p id="refea"></p>
+	
+    <script src="script.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3347250231961092"
+     crossorigin="anonymous"></script>
 </body>
+<<<<<<< HEAD:formayssoune/index.html
+=======
+
+>>>>>>> parent of 5bdd2ff (Add files via upload):index.html
 </html>
