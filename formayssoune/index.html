@@ -38,13 +38,11 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            /* Added for the smooth fade */
             transition: opacity 2s ease, visibility 2s;
             opacity: 1;
             visibility: visible;
         }
 
-        /* This class will be added by JavaScript when time is up */
         #lock-screen.hidden {
             opacity: 0;
             visibility: hidden;
@@ -90,22 +88,31 @@
             opacity: 0.4;
         }
 
-        /* 3. PHOTO & VIDEO GRID */
+        /* 3. PHOTO & VIDEO GRID WITH POLAROID TILT */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px;
+            gap: 50px; /* Slightly more gap to allow for rotation space */
             max-width: 1000px;
             width: 100%;
+            padding: 20px;
         }
 
         .moment {
             cursor: pointer;
-            transition: opacity 0.3s ease;
+            transition: transform 0.4s ease, opacity 0.3s ease;
+            position: relative;
         }
 
+        /* Apply subtle alternating tilts */
+        .moment:nth-child(even) { transform: rotate(-2deg); }
+        .moment:nth-child(odd) { transform: rotate(1.5deg); }
+        .moment:nth-child(3n) { transform: rotate(-1deg); }
+
         .moment:hover {
-            opacity: 0.8;
+            opacity: 1;
+            transform: rotate(0deg) scale(1.05); /* Straightens and grows slightly */
+            z-index: 10; /* Ensures the hovered photo stays on top */
         }
 
         .moment img, .moment video {
@@ -116,6 +123,7 @@
             background: #fff;
             padding: 10px;
             box-sizing: border-box;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Subtle shadow for depth */
         }
 
         .moment-caption {
@@ -341,69 +349,59 @@
 
     <script>
         // --- COUNTDOWN & LOCK LOGIC ---
-        // Function to launch confetti
-function launchConfetti() {
-    var duration = 3 * 1000;
-    var end = Date.now() + duration;
+        function launchConfetti() {
+            var duration = 3 * 1000;
+            var end = Date.now() + duration;
 
-    (function frame() {
-        // Confetti colors matching your "Soft Taupe" and "Gold" vibe
-        confetti({
-            particleCount: 3,
-            angle: 60,
-            spread: 55,
-            origin: { x: 0 },
-            colors: ['#29cdff', '#ff718d', '#fdff6a']
-        });
-        confetti({
-            particleCount: 3,
-            angle: 120,
-            spread: 55,
-            origin: { x: 1 },
-            colors: ['#29cdff', '#ff718d', '#fdff6a']
-        });
+            (function frame() {
+                confetti({
+                    particleCount: 3,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 },
+                    colors: ['#29cdff', '#ff718d', '#fdff6a']
+                });
+                confetti({
+                    particleCount: 3,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 },
+                    colors: ['#29cdff', '#ff718d', '#fdff6a']
+                });
 
-        if (Date.now() < end) {
-            requestAnimationFrame(frame);
+                if (Date.now() < end) {
+                    requestAnimationFrame(frame);
+                }
+            }());
         }
-    }());
-}
 
-function updateTimer() {
-    // Target: August 2nd 2026, 00:00:00 Morocco Time (GMT+1)
-    const target = new Date("2026-08-02T00:00:00+01:00").getTime();
-    const now = new Date().getTime();
-    const diff = target - now;
+        function updateTimer() {
+            const target = new Date("2026-08-02T00:00:00+01:00").getTime();
+            const now = new Date().getTime();
+            const diff = target - now;
+            const lock = document.getElementById('lock-screen');
 
-    const lock = document.getElementById('lock-screen');
+            if (diff <= 0) {
+                if (!lock.classList.contains('hidden')) {
+                    lock.classList.add('hidden');
+                    launchConfetti();
+                    setTimeout(() => {
+                        lock.style.display = 'none';
+                    }, 2000); 
+                }
+                return;
+            }
 
-    if (diff <= 0) {
-        // 1. Trigger the fade
-        if (!lock.classList.contains('hidden')) {
-            lock.classList.add('hidden');
-            
-            // 2. Launch the confetti celebration!
-            launchConfetti();
-            
-            // 3. Completely remove from layout after fade finishes
-            setTimeout(() => {
-                lock.style.display = 'none';
-            }, 2000); 
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerText = 
+                hours + "h " + minutes + "m " + seconds + "s";
         }
-        return;
-    }
 
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    document.getElementById('countdown').innerText = 
-        hours + "h " + minutes + "m " + seconds + "s";
-}
-
-setInterval(updateTimer, 1000);
-updateTimer();
-
+        setInterval(updateTimer, 1000);
+        updateTimer();
 
         // --- GALLERY & NOTE LOGIC ---
         function revealNote() {
