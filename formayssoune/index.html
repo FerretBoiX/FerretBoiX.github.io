@@ -24,6 +24,39 @@
             align-items: center;
         }
 
+        /* LOCK SCREEN STYLE */
+        #lock-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* Added for the smooth fade */
+            transition: opacity 2s ease, visibility 2s;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* This class will be added by JavaScript when time is up */
+        #lock-screen.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        #countdown {
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            color: var(--accent);
+        }
+
         header {
             text-align: center;
             margin-bottom: 80px;
@@ -48,7 +81,6 @@
         .subtitle {
             font-size: 0.9rem;
             color: var(--secondary);
-            text-transform: uppercase;
             letter-spacing: 3px;
         }
 
@@ -76,7 +108,6 @@
             opacity: 0.8;
         }
 
-        /* Unified style for both images and videos in the grid */
         .moment img, .moment video {
             width: 100%;
             height: 350px;
@@ -95,7 +126,7 @@
             font-style: italic;
         }
 
-        /* 4. LIGHTBOX (Updated for Video) */
+        /* 4. LIGHTBOX */
         #lightbox {
             display: none;
             position: fixed;
@@ -115,7 +146,7 @@
             max-width: 90%;
             max-height: 80%;
             box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            display: none; /* Hidden by default, toggled by JS */
+            display: none;
         }
 
         /* 5. SURPRISE SECTION */
@@ -164,8 +195,17 @@
             letter-spacing: 1px;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
+
+    <!-- LOCK SCREEN OVERLAY -->
+    <div id="lock-screen">
+        <div class="subtitle">patience lol</div>
+        <h1>just a little more</h1>
+        <div id="countdown">Loading...</div>
+        <div class="deco-icons">🥛 &nbsp; 🎂</div>
+    </div>
 
     <header>
         <div class="subtitle">August 2026</div>
@@ -201,7 +241,6 @@
             <div class="moment-caption">you always hated rex</div>
         </div>
 
-        <!-- VIDEO SECTION: Changed from <img> to <video> -->
         <div class="moment" onclick="openLightbox(this)">
             <video src="imgs/baguette.mov" muted loop playsinline autoplay></video>
             <div class="moment-caption">the hell are you doing with it</div>
@@ -298,9 +337,75 @@
     <div id="lightbox" onclick="closeLightbox()">
         <img id="lightbox-img" src="">
         <video id="lightbox-video" controls autoplay loop></video>
-    </header>
+    </div>
 
     <script>
+        // --- COUNTDOWN & LOCK LOGIC ---
+        // Function to launch confetti
+function launchConfetti() {
+    var duration = 3 * 1000;
+    var end = Date.now() + duration;
+
+    (function frame() {
+        // Confetti colors matching your "Soft Taupe" and "Gold" vibe
+        confetti({
+            particleCount: 3,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+            colors: ['#29cdff', '#ff718d', '#fdff6a']
+        });
+        confetti({
+            particleCount: 3,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+            colors: ['#29cdff', '#ff718d', '#fdff6a']
+        });
+
+        if (Date.now() < end) {
+            requestAnimationFrame(frame);
+        }
+    }());
+}
+
+function updateTimer() {
+    // Target: August 2nd 2026, 00:00:00 Morocco Time (GMT+1)
+    const target = new Date("2026-08-02T00:00:00+01:00").getTime();
+    const now = new Date().getTime();
+    const diff = target - now;
+
+    const lock = document.getElementById('lock-screen');
+
+    if (diff <= 0) {
+        // 1. Trigger the fade
+        if (!lock.classList.contains('hidden')) {
+            lock.classList.add('hidden');
+            
+            // 2. Launch the confetti celebration!
+            launchConfetti();
+            
+            // 3. Completely remove from layout after fade finishes
+            setTimeout(() => {
+                lock.style.display = 'none';
+            }, 2000); 
+        }
+        return;
+    }
+
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById('countdown').innerText = 
+        hours + "h " + minutes + "m " + seconds + "s";
+}
+
+setInterval(updateTimer, 1000);
+updateTimer();
+
+
+        // --- GALLERY & NOTE LOGIC ---
         function revealNote() {
             document.getElementById('personal-note').style.display = 'block';
             document.querySelector('.reveal-btn').style.display = 'none';
@@ -311,10 +416,8 @@
         const lbVid = document.getElementById('lightbox-video');
 
         function openLightbox(element) {
-            // Check if there is an image or a video inside the clicked element
             const img = element.querySelector('img');
             const vid = element.querySelector('video');
-
             lb.style.display = 'flex';
 
             if (img) {
